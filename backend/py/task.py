@@ -14,29 +14,29 @@ class File:
 Task 1
 """
 def leafFiles(files: list[File]) -> list[str]:
-    parentset = set()
+    parentSet = set()
 
     for f in files:
         if f.parent != -1:
-            parentset.add(f.parent)
+            parentSet.add(f.parent)
 
-    return [fl.name for fl in files if fl.id not in parentset]
+    return [fl.name for fl in files if fl.id not in parentSet]
 
 
 """
 Task 2
 """
 def kLargestCategories(files: list[File], k: int) -> list[str]:
-    categorycount = {}
+    categoryCount = {}
 
     freq = [[]]
 
     for f in files:
         for c in f.categories:
-            categorycount[c] = categorycount.get(c, 0) + 1
+            categoryCount[c] = categoryCount.get(c, 0) + 1
         freq.append([])
 
-    for name, category in categorycount.items():
+    for name, category in categoryCount.items():
         freq[category].append(name)
 
     final_res = []
