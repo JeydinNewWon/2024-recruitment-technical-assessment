@@ -17,7 +17,6 @@ export function CourseCard({
   offered_terms
 }: CourseCardProps) {
   return (
-    <a href="">
       <div className="box-border px-6 py-7 hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer text-2xl">
         <div className="flex flex-wrap justify-between">
           <h2 className="text-black font-bold w-[8ch]">{course_prefix + course_code.toString()}</h2>
@@ -36,6 +35,5 @@ export function CourseCard({
           ))}
         </div>
       </div>
-    </a>
   );
 }
