@@ -1,6 +1,6 @@
-import { SearchBar } from "./components/SearchBar/SearchBar";
-import { Dropdown } from "./components/Dropdown/Dropdown";
-import { CourseGrid } from "./components/CourseGrid/CourseGrid";
+import { SearchBar } from "../SearchBar/SearchBar";
+import { Dropdown } from "../Dropdown/Dropdown";
+import { CourseGrid } from "../CourseGrid/CourseGrid";
 
 export function LandingBody() {
   return (

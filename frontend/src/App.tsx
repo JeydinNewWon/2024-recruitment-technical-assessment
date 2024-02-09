@@ -2,7 +2,7 @@ import './App.css';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { Title } from './Title';
 import { NavHeader } from './components/NavHeader/NavHeader';
-import { LandingBody } from './LandingBody';
+import { LandingBody } from './components/LandingBody/LandingBody';
 
 function App() {
   return (
