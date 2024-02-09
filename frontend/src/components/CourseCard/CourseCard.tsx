@@ -28,7 +28,7 @@ export function CourseCard({
             <p className="text-xs font-normal" style={{color: 'rgb(152, 152, 152)'}}>{total_reviews} reviews</p>
           </div>
         </div>
-        <p className="text-left text-sm font-normal h-16 break-all line-clamp-3" style={{color: 'black'}}>{course_title}</p>
+        <p className="text-left text-sm font-normal h-16 break-all" style={{color: 'black'}}>{course_title}</p>
         <div className="flex flex-wrap gap-3 text-xs text-black font-normal">
           {offered_terms.map((term) => (
              <span className="rounded-full py-1 px-2 unilectives-tag">{term}</span>
