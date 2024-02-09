@@ -111,9 +111,10 @@ def largestFileSize(files: list[File]) -> int:
     # for the final step, to ensure we visit all files, (including the ones)
     # that have no parent or child relationship, we must loop through them 
     # and run the dfs function.
+    # O(n + m), where m is the total number of parent-child relations
     for f in files:
         maxSize = max(maxSize, dfs(f, adjMap, totalSizeMap))
-        
+
     return maxSize
 
 
