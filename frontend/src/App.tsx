@@ -1,7 +1,6 @@
 import './App.css';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { Title } from './components/Title/Title';
-import { NavHeader } from './components/NavHeader/NavHeader';
 import { LandingBody } from './components/LandingBody/LandingBody';
 
 function App() {

@@ -23,7 +23,7 @@ export function CourseCard({
           <div className="text-left">
             <div className="relative inline-block">
               <span className="text=[#999999] opacity-30">★★★★★</span>
-              <span className="bg-unilectives-purple text-transparent select-none bg-clip-text absolute inset-0" style={{width: `${(average_stars/5.0) * 100.0 }%`}}>★★★★★</span>
+              <span className="bg-purple text-transparent select-none bg-clip-text absolute inset-0" style={{width: `${(average_stars/5.0) * 100.0 }%`}}>★★★★★</span>
             </div>
             <p className="text-xs font-normal" style={{color: 'rgb(152, 152, 152)'}}>{total_reviews} reviews</p>
           </div>
@@ -31,7 +31,7 @@ export function CourseCard({
         <p className="text-left text-sm font-normal h-16 break-all" style={{color: 'black'}}>{course_title}</p>
         <div className="flex flex-wrap gap-3 text-xs text-black font-normal">
           {offered_terms.map((term) => (
-             <span className="rounded-full py-1 px-2 unilectives-tag">{term}</span>
+             <span className="rounded-full py-1 px-2 tag-bg">{term}</span>
           ))}
         </div>
       </div>
