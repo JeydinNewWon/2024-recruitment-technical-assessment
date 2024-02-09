@@ -53,3 +53,7 @@
 .tag-bg {
   background-color: rgb(204, 235, 246);
 }
+
+#searchbar::placeholder {
+  color: #9cade9;
+}
