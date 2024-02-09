@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Sidebar/>
-      <div className='ml-20 xs:ml-15'>
+      <div className='ml-20'>
         <div className='mb-20'>
           <Title/>
           <LandingBody/>
