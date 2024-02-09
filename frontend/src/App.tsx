@@ -10,7 +10,6 @@ function App() {
       <Sidebar/>
       <div className='ml-20 xs:ml-15'>
         <div className='mb-20'>
-          <NavHeader/>
           <Title/>
           <LandingBody/>
         </div>
