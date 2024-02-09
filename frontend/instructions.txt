@@ -2,3 +2,4 @@ Please detail the instructions to view your solution here:
 
 1. npm install
 2. npm run dev
+3. access the localhost link
